@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Free Booklet</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link href="css/style-additional.css" rel="stylesheet" type="text/css"/>
+    <script src="packages/jquery/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <!--[if lte IE 8]>
+    <script src="../packages/PIE/PIE.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <style>
+    	.select_option .select_option_button {
+			top: 4px;
+			background: url("../../resources/select_option_button_small.png") 0 0 no-repeat scroll transparent;
+		}
+    </style>
+    <![endif]-->
+    <script type="text/javascript">
+    if($.browser.msie && $.browser.version <= 8) {
+    	$(document).ready(function () {
+    		$('.border_radius_large, .border_radius, .border_radius_small').each(function() {
+    			PIE.attach(this);
+    		});
+    	});
+    }
+    </script>
+</head>
+<body>
+	<div style="width: 260px; position: relative">
+		<div class="booklet_form_title row-fluid">
+			<h3>GET YOUR FREE BOOKLET</h3>
+		</div>
+		<div class="form_container border_radius_large">
+			<div class="booklet_form_header row-fluid">
+				<img src="resources_pack/booklet_form_header.png" />
+			</div>
+			<table class="align_table">
+				<tbody>
+					<tr>
+						<td class="first"><span>21 WAYS TO LOSE WEIGHT</span></td>
+						<td class="second">
+							<img class="book_cover_page_small" src="resources_pack/book_cover_page_small.png" />
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="row-fluid">
+				<form action="http://email.thewebmarketeers.co.uk/t/r/s/zzilr/" method="post" id="booklet_form">
+					<fieldset class="form_set">
+						<label class="form_label">
+							Full Name: *<br/>
+							<input type="text" name="cm-f-puhkti" id="FullName" class="field_item border_radius">
+						</label>
+						<label class="form_label">
+							Email: *<br/>
+							<input type="text" name="cm-zzilr-zzilr" id="zzilr-zzilr" class="field_item border_radius">
+						</label>
+					</fieldset>
+					<fieldset class="form_actions row-fluid">
+						<div class="row-bs" style="padding-left: 20px;">
+							<a href="#" class="privacy_link orange pull-left">Privacy Policy</a>
+						</div>
+						<div class="row-bs" style="padding-right: 20px;">
+							<input name="Submit" id="Submit" src="resources_pack/final-email-capture-button.gif" class="gdl-button shortcode-large-button border_radius_small pull-right" type="image" />
+						</div>
+					</fieldset>
+					<div class="booklet_form_footer row-fluid">
+						<img src="resources_pack/booklet_form_footer.png" />
+					</div>
+					<p class="form_note">All fields marked with * are mandatory.</p>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
